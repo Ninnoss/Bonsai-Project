@@ -4,3 +4,65 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+
+/* Navbar ======================================================================================> */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: #4c4d5f;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav-links li:hover {
+  font-weight: bolder;
+}
+
+.company-logo {
+  height: 30px;
+}
+
+/* Button styles */
+.navbar-button {
+  padding: 0.6rem 2rem;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #00b289;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.log-in-btn {
+  border: #00b289 solid 1px;
+  background-color: white;
+}
+
+.log-in-btn:hover {
+  background-color: #00b289;
+  color: white;
+}
+
+.start-free-btn {
+  background-color: #00b289;
+  color: white;
+}
+
+.dropdown::after {
+  content: '🢓';
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 0.5rem;
+}
