@@ -170,10 +170,12 @@ input:checked + .slider:before {
   background-color: #00b289;
   color: #fff;
   padding: 0.5rem 1rem;
-  /* transform: rotate(45deg); */
+  width: 15rem;
+  transform: rotate(45deg);
   border-radius: 2px;
-  /* transform-origin: center; */
+  transform-origin: 6.5rem 6.5rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .card h3 {
@@ -229,9 +231,10 @@ input:checked + .slider:before {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3;
+
   &:hover {
-    transform: translateY(-2px);
     font-weight: bolder;
     background-color: rgba(0, 178, 137, 0.9);
+    scale: 1.01;
   }
 }
