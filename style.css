@@ -61,11 +61,14 @@ nav {
 }
 
 .dropdown::after {
-  content: '🢓';
+  content: "";
+  border: solid #000;
+  border-width: 0 2px 2px 0;
   display: inline-block;
-  margin-left: 5px;
-  position: relative;
-  top: 0.5rem;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 8px;
+  margin-bottom: 3px;
 }
 
 /* Hero-cards ======================================================================================> */
@@ -249,5 +252,45 @@ input:checked + .slider:before {
     font-weight: bolder;
     background-color: rgba(0, 178, 137, 0.9);
     scale: 1.01;
+  }
+}
+
+/* Footer section ======================================================================================> */
+.ft-main {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.ft-main h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 3rem;
+}
+
+.ft-main h4 {
+  color: #00b289;
+  margin-bottom: 0.3rem;
+}
+
+.ft-main h5 {
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 1rem;
+}
+
+.ft-main ul li {
+  list-style: none;
+  margin-bottom: 0.6rem;
+}
+
+.ft-main a {
+  text-decoration: none;
+  color: gray;
+  &:hover {
+    font-weight: 900;
+    transition: all 0.2s;
+    color: rgb(0, 0, 0, 0.9);
   }
 }
