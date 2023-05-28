@@ -9,6 +9,7 @@
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
+  padding: 1.5rem 0;
 }
 
 /* Navbar ======================================================================================> */
@@ -16,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 3rem 5rem;
 }
 
 .nav-links {
@@ -82,12 +83,11 @@ nav {
 
 /* Hero-cards ======================================================================================> */
 .hero-section {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
-/*  */
 
 .pricing-details {
-  padding: 4rem 5rem;
+  padding: 4rem 7.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -361,6 +361,8 @@ input:checked + .slider:before {
 .faq__header h1 {
   font-size: 1.8rem;
   color: #00b289;
+  text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .questions {
@@ -379,10 +381,12 @@ input:checked + .slider:before {
   border: none;
   font-size: 1.2rem;
   color: #4c4d5f;
+  cursor: pointer;
 }
 
 /* Footer section ======================================================================================> */
 .ft-main {
+  background-color: rgb(240, 245, 240, 0.25);
   display: flex;
   justify-content: space-evenly;
   column-gap: 2rem;
