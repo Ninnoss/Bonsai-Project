@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Navbar ======================================================================================> */
 nav {
   display: flex;
@@ -257,12 +263,6 @@ input:checked + .slider:before {
 }
 
 /* Add-ons Section =================================================================================================================> */
-.container {
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .addOns {
   display: flex;
   flex-direction: column;
@@ -352,6 +352,30 @@ input:checked + .slider:before {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+/* FAQ-Section section ======================================================================================> */
+.faq__header h1 {
+  font-size: 1.8rem;
+  color: #00b289;
+}
+
+.questions {
+  width: 100%;
+}
+
+.questions__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0rem;
+  color: #4c4d5f;
+}
+
+.questions__card .questions__icon button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #4c4d5f;
 }
 
 /* Footer section ======================================================================================> */
