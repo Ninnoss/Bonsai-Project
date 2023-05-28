@@ -323,11 +323,13 @@ input:checked + .slider:before {
 }
 
 /* Footer section ======================================================================================> */
+
+
 .ft-main {
   display: flex;
   justify-content: space-evenly;
   column-gap: 2rem;
-  padding-bottom: 4rem;
+  padding: 4rem 0;
 }
 
 .ft-main h3 {
