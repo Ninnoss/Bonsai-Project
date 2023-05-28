@@ -64,6 +64,9 @@ nav {
 .start-free-btn {
   background-color: #00b289;
   color: white;
+  &:hover {
+    background-color: rgb(0, 178, 137, 0.8);
+  }
 }
 
 .dropdown::after {
