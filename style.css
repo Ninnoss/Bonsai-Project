@@ -322,9 +322,39 @@ input:checked + .slider:before {
   font-size: 0.8rem;
 }
 
+/* Business section ======================================================================================> */
+
+.business {
+  background: #00b2881a;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 6px;
+  margin: 2rem 0rem;
+}
+
+.business h1 {
+  font-size: 2rem;
+}
+.business h1 span {
+  color: #00b289;
+}
+
+.business button {
+  padding: 0.8rem 1.8rem;
+  background: #00b289;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 /* Footer section ======================================================================================> */
-
-
 .ft-main {
   display: flex;
   justify-content: space-evenly;
